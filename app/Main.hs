@@ -3,4 +3,6 @@ module Main where
 import Lib
 
 main :: IO ()
-main = someFunc
+main = do
+    easyDoesIt
+    reverseMe "you want a racecar?"
